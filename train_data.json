@@ -1,0 +1,206 @@
+[
+    {
+        "instruction": "What is compound interest?",
+        "response": "Compound interest is interest calculated on both the initial principal and the accumulated interest from previous periods. It allows money to grow exponentially over time."
+    },
+    {
+        "instruction": "How much should I save for emergencies?",
+        "response": "Financial experts recommend saving 3–6 months' worth of living expenses in an emergency fund to cover unexpected events like job loss or medical bills."
+    },
+    {
+        "instruction": "What's the difference between a Roth IRA and a Traditional IRA?",
+        "response": "A Roth IRA uses after-tax contributions (tax-free withdrawals in retirement), while a Traditional IRA uses pre-tax contributions (tax-deferred growth, taxed at withdrawal)."
+    },
+    {
+        "instruction": "How does a credit score work?",
+        "response": "Credit scores (300–850) reflect creditworthiness based on payment history, credit utilization, length of credit history, new credit, and credit mix. Higher scores secure better loan terms."
+    },
+    {
+        "instruction": "What is the 50/30/20 budget rule?",
+        "response": "Allocate 50% of income to needs (rent, groceries), 30% to wants (entertainment), and 20% to savings/debt repayment. Adjust percentages based on goals."
+    },
+    {
+        "instruction": "What is a 401(k) employer match?",
+        "response": "Some employers match employee 401(k) contributions up to a percentage (e.g., 50% of contributions up to 6% of salary). It’s essentially free money for retirement."
+    },
+    {
+        "instruction": "How do I reduce credit card debt?",
+        "response": "Strategies include: 1) Paying more than minimums, 2) Using the avalanche method (target high-interest debt first), or 3) Consolidating debt with a lower-interest loan."
+    },
+    {
+        "instruction": "What is dollar-cost averaging?",
+        "response": "Investing a fixed amount at regular intervals (e.g., $500/month) to reduce market timing risk. This averages purchase prices over time."
+    },
+    {
+        "instruction": "What are index funds?",
+        "response": "Index funds are low-cost investments that track market indexes (e.g., S&P 500). They offer diversification and typically outperform actively managed funds long-term."
+    },
+    {
+        "instruction": "Why is diversification important?",
+        "response": "Spreading investments across asset classes (stocks, bonds, real estate) reduces risk. If one sector underperforms, others may balance losses."
+    },
+    {
+        "instruction": "What is a high-yield savings account?",
+        "response": "A savings account offering significantly higher interest rates than traditional accounts (e.g., 4% APY vs. 0.1%). Ideal for emergency funds or short-term goals."
+    },
+    {
+        "instruction": "How do mortgages work?",
+        "response": "A mortgage is a loan to buy property, repaid with interest over 15–30 years. Key terms: down payment (typically 20% to avoid PMI), fixed vs. adjustable rates."
+    },
+    {
+        "instruction": "What is the Rule of 72?",
+        "response": "A formula to estimate investment doubling time: Divide 72 by the annual interest rate. Example: 72 ÷ 6% return = 12 years to double your money."
+    },
+    {
+        "instruction": "What’s the difference between stocks and bonds?",
+        "response": "Stocks represent ownership in a company (higher risk/return). Bonds are loans to governments/corporations (fixed income, lower risk)."
+    },
+    {
+        "instruction": "How do dividends work?",
+        "response": "Dividends are company profits shared with shareholders, paid quarterly as cash or additional shares. Not all companies offer dividends."
+    },
+    {
+        "instruction": "What is a Health Savings Account (HSA)?",
+        "response": "An HSA is a tax-advantaged account for medical expenses. Contributions are tax-deductible, growth is tax-free, and withdrawals for qualified expenses are untaxed."
+    },
+    {
+        "instruction": "What’s the difference between a debit and credit card?",
+        "response": "Debit cards spend money directly from your bank account. Credit cards borrow money (up to a limit) and require repayment, often with interest."
+    },
+    {
+        "instruction": "How do tax deductions work?",
+        "response": "Deductions reduce taxable income (e.g., student loan interest, mortgage interest). Lower taxable income = lower tax bill."
+    },
+    {
+        "instruction": "What is a W-4 form?",
+        "response": "A form employees complete to set federal income tax withholding from paychecks, based on filing status, dependents, and other adjustments."
+    },
+    {
+        "instruction": "What is a brokerage account?",
+        "response": "An account to buy/sell investments (stocks, ETFs, bonds). No contribution limits or withdrawal penalties, unlike retirement accounts."
+    },
+    {
+        "instruction": "How does inflation impact savings?",
+        "response": "Inflation erodes purchasing power. If savings earn less interest than inflation (e.g., 2% savings vs. 3% inflation), money effectively loses value."
+    },
+    {
+        "instruction": "What is a CD (Certificate of Deposit)?",
+        "response": "A time-bound bank deposit with fixed interest rates and maturity dates (e.g., 1–5 years). Early withdrawals incur penalties."
+    },
+    {
+        "instruction": "What’s the difference between APR and APY?",
+        "response": "APR (Annual Percentage Rate) is the yearly interest rate without compounding. APY (Annual Percentage Yield) includes compounding effects (e.g., monthly)."
+    },
+    {
+        "instruction": "How do student loans work?",
+        "response": "Loans to cover education costs, repaid with interest after graduation. Federal loans offer income-driven repayment; private loans vary by lender."
+    },
+    {
+        "instruction": "What is refinancing a loan?",
+        "response": "Replacing an existing loan with a new one (often at a lower interest rate or better terms) to reduce payments or shorten the repayment period."
+    },
+    {
+        "instruction": "What is a credit utilization ratio?",
+        "response": "The percentage of available credit you’re using (e.g., $2,000 balance ÷ $10,000 limit = 20%). Keeping it below 30% helps credit scores."
+    },
+    {
+        "instruction": "What is passive income?",
+        "response": "Earnings from ventures requiring little daily effort (e.g., rental properties, dividends, royalties). Contrasts with active income (salaries/wages)."
+    },
+    {
+        "instruction": "How do capital gains taxes work?",
+        "response": "Taxes on profits from selling assets (e.g., stocks, real estate). Short-term gains (<1 year) are taxed as income; long-term gains have lower rates."
+    },
+    {
+        "instruction": "What is a 529 plan?",
+        "response": "A tax-advantaged savings plan for education expenses. Contributions grow tax-free, and withdrawals for qualified education costs are untaxed."
+    },
+    {
+        "instruction": "What’s the difference between term and whole life insurance?",
+        "response": "Term life covers a set period (e.g., 20 years) and is cheaper. Whole life covers your entire life, builds cash value, and is more expensive."
+    },
+    {
+        "instruction": "How do I start investing with $100?",
+        "response": "Use low-cost platforms like robo-advisors or fractional shares to buy ETFs/index funds. Focus on long-term growth and diversify."
+    },
+    {
+        "instruction": "What is a REIT?",
+        "response": "A Real Estate Investment Trust (REIT) lets you invest in real estate without owning property. REITs pay high dividends and trade like stocks."
+    },
+    {
+        "instruction": "What is a balance transfer?",
+        "response": "Moving high-interest credit card debt to a new card with a 0% introductory APR (usually 12–18 months) to save on interest payments."
+    },
+    {
+        "instruction": "How do I calculate net worth?",
+        "response": "Subtract liabilities (debts) from assets (savings, investments, property). Example: $100k assets - $30k debts = $70k net worth."
+    },
+    {
+        "instruction": "What is a fiduciary?",
+        "response": "A financial advisor legally obligated to act in your best interest (unlike non-fiduciaries, who may recommend products for commissions)."
+    },
+    {
+        "instruction": "What is a bear market?",
+        "response": "A market decline of 20% or more from recent highs, often signaling investor pessimism. Contrasts with bull markets (rising prices)."
+    },
+    {
+        "instruction": "How do I negotiate a salary raise?",
+        "response": "1) Research market rates, 2) Highlight achievements, 3) Time the request well (e.g., after a success), 4) Be prepared to counteroffer."
+    },
+    {
+        "instruction": "What is a mutual fund?",
+        "response": "A pooled investment fund managed by professionals, holding stocks/bonds. Investors buy shares, gaining diversification but paying management fees."
+    },
+    {
+        "instruction": "What is a FICO score?",
+        "response": "The most common credit scoring model (300–850), used by 90% of lenders. Based on payment history, amounts owed, credit history length, new credit, and credit mix."
+    },
+    {
+        "instruction": "How do I improve my credit score?",
+        "response": "1) Pay bills on time, 2) Lower credit utilization (<30%), 3) Avoid closing old accounts, 4) Limit hard inquiries, 5) Dispute errors on your report."
+    },
+    {
+        "instruction": "What is a cashback credit card?",
+        "response": "A card that rewards purchases with cash refunds (e.g., 1–5% back). Best for those who pay balances in full to avoid interest charges."
+    },
+    {
+        "instruction": "What is a tax bracket?",
+        "response": "A range of incomes taxed at a specific rate (e.g., 22% for $40k–$85k). Only income within each bracket is taxed at that rate (progressive system)."
+    },
+    {
+        "instruction": "What is liquidity?",
+        "response": "How quickly an asset can be converted to cash without losing value. Savings accounts are highly liquid; real estate is illiquid."
+    },
+    {
+        "instruction": "What is a side hustle?",
+        "response": "A secondary job or gig (e.g., freelancing, rideshare driving) to earn extra income. Can help pay debt or fund investments."
+    },
+    {
+        "instruction": "What is a target-date fund?",
+        "response": "A mutual fund that automatically adjusts asset allocation (stocks/bonds) as you near retirement. Example: 'Target 2050 Fund' for retirees around 2050."
+    },
+    {
+        "instruction": "What is the S&P 500?",
+        "response": "A stock market index tracking 500 large U.S. companies. It reflects overall market performance and is a common benchmark for investors."
+    },
+    {
+        "instruction": "How do I save for a down payment on a house?",
+        "response": "1) Set a timeline (e.g., 5 years), 2) Automate savings, 3) Reduce discretionary spending, 4) Use high-yield accounts, 5) Consider side income."
+    },
+    {
+        "instruction": "What is a loan amortization schedule?",
+        "response": "A table showing each payment’s breakdown (principal vs. interest) over a loan’s life. Early payments are interest-heavy; later payments shift to principal."
+    },
+    {
+        "instruction": "What is a bull market?",
+        "response": "A period of rising stock prices (typically 20%+ from lows), signaling investor confidence. Opposite of a bear market."
+    },
+    {
+        "instruction": "What is a robo-advisor?",
+        "response": "An automated platform that invests your money using algorithms (e.g., Betterment, Wealthfront). Low fees, minimal human interaction."
+    },
+    {
+        "instruction": "What is the difference between gross and net income?",
+        "response": "Gross income is total earnings before taxes/deductions. Net income (take-home pay) is what remains after taxes, insurance, retirement contributions, etc."
+    }
+]
