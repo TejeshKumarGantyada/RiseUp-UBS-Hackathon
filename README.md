@@ -150,9 +150,9 @@ datasets
 bitsandbytes
 huggingface_hub
 ```
-
+# Sample output in English
 ![Screenshot 1](assets/img1.png)
 
-
+# Sample output in Hindi
 ![Screenshot 2](assets/img2.png)
 
