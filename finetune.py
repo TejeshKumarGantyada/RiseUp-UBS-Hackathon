@@ -22,6 +22,8 @@ if not os.path.exists(DATA_PATH):
     raise FileNotFoundError(f"Dataset not found at {os.path.abspath(DATA_PATH)}")
 
 # 3. MEMORY-EFFICIENT MODEL LOADING
+
+# Qunatization
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_quant_type="nf4",
@@ -29,6 +31,7 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_use_double_quant=True
 )
 
+# Loading
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
     quantization_config=bnb_config,
@@ -48,16 +51,18 @@ def format_instruction(example):
     }
 
 try:
+    # load json data
     with open(DATA_PATH) as f:
         raw_data = json.load(f)
-    
+
     # Process in smaller chunks
     chunk_size = 10  # Process 10 examples at a time
     processed_data = []
     for i in range(0, len(raw_data), chunk_size):
         chunk = raw_data[i:i + chunk_size]
         processed_data.extend([format_instruction(d) for d in chunk])
-    
+
+    #convert list to hugg face dataset obj
     dataset = Dataset.from_list(processed_data)
 except Exception as e:
     raise RuntimeError(f"Error loading dataset: {str(e)}")
@@ -72,6 +77,7 @@ def tokenize_function(examples):
         return_tensors="pt"
     )
 
+# tokenize in batches of 4
 tokenized_dataset = dataset.map(tokenize_function, batched=True, batch_size=4)
 
 # 6. DATA COLLATOR
@@ -85,9 +91,9 @@ model = prepare_model_for_kbit_training(model)
 
 peft_config = LoraConfig(
     r=4,  # Reduced from 8
-    lora_alpha=16,  # Reduced from 32
-    target_modules=["q_proj", "v_proj"],  # Fewer target modules
-    lora_dropout=0.05,
+    lora_alpha=16,  # Reduced from 32 -> scaling factor
+    target_modules=["q_proj", "v_proj"],  # Fewer target modules -> layer names (query and value)
+    lora_dropout=0.05, # prevent overfitting
     bias="none",
     task_type="CAUSAL_LM"
 )
@@ -101,7 +107,7 @@ training_args = TrainingArguments(
     gradient_accumulation_steps=8,  # Increased to compensate
     learning_rate=1e-4,  # Lower learning rate
     num_train_epochs=2,  # Reduced epochs
-    fp16=True,
+    fp16=True,  #both 16 and 32 bit mixed prec
     logging_steps=5,
     optim="paged_adamw_8bit",
     save_strategy="steps",
